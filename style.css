@@ -4,6 +4,7 @@ body {
     color: #ffffff; 
     text-align: center;
     padding: 20px;
+    margin: 0;
 }
 
 .tituloCalculadora {
@@ -13,7 +14,7 @@ body {
     margin-bottom: 20px;
 }
 
-#inp_decimal {
+#input_numero {
     width: 250px;
     padding: 10px;
     border: 2px solid #007bff;
@@ -45,6 +46,24 @@ button {
 }
 button:hover {
     background-color: #0056b3;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.container_box{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.result{
+    max-width: 200px;
+    overflow: hidden;
+    word-wrap: break-word; 
 }
 
 @media (max-width: 600px) {
