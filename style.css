@@ -8,7 +8,7 @@ body {
 }
 
 .tituloCalculadora {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
     color: #007bff; 
     margin-bottom: 20px;
@@ -41,7 +41,6 @@ button {
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 15px;
     transition: 0.3s;
 }
 button:hover {
@@ -61,6 +60,7 @@ button:hover {
     align-items: center;
 }
 .result{
+    text-align: center;
     max-width: 200px;
     overflow: hidden;
     word-wrap: break-word; 
@@ -73,5 +73,24 @@ button:hover {
 
     button {
         width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .container_box{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+    }
+    .result{
+        text-align: center;
+    }
+    button{
+        width: 80%;
     }
 }
