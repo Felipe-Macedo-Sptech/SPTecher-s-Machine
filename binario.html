@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 class="tituloCalculadora">Calculadora de conversão para binario</h3>
+    <input type="text" id="inp_decimal">
+    <div id="div_binarioConversao"></div>
+    <button onclick="conversao()">Converter decimal pra binario</button>
+</body>
+</html>
+<script>
+    function conversao(){
+        var decimal =  Number(inp_decimal.value)
+        div_binarioConversao.innerHTML = decimal.toString(2)
+    }
+</script>
